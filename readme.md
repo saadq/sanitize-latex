@@ -1,5 +1,5 @@
 # sanitize-latex
-A small wrapper for generating PDFs with LaTeX in Node.
+Sanitize hazardous LaTeX symbols from your strings.
 
 ## Install
 
