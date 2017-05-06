@@ -15,7 +15,7 @@ const sanitize = require('sanitize-latex')
 const unsanitizedString = '\\ ${Hello} %there^'
 const sanitizedString = sanitize(unsanitizedString)
 
-console.log(sanitizedString) // String: \textbackslash{} \$\{Hello\}
+console.log(sanitizedString) // \textbackslash{} \$\{Hello\} \%there\textasciicircum{}
 ```
 
 ## API
