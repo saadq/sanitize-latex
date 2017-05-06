@@ -1,6 +1,6 @@
 {
   "name": "sanitize-latex",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "A string sanitizer for LaTeX symbols.",
   "main": "index.js",
   "author": "Saad Quadri",
