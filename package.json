@@ -1,0 +1,24 @@
+{
+  "name": "sanitize-latex",
+  "version": "0.1.0",
+  "description": "A string sanitizer for LaTeX symbols.",
+  "main": "index.js",
+  "author": "Saad Quadri",
+  "license": "MIT",
+  "repository": "https://github.com/saadq/sanitize-latex",
+  "scripts": {
+    "lint": "blyss | snazzy",
+    "fix": "blyss --fix",
+    "test": "npm run lint --silent && ava --fail-fast --verbose"
+  },
+  "keywords": [
+    "latex",
+    "pdflatex",
+    "sanitize"
+  ],
+  "devDependencies": {
+    "ava": "^0.19.1",
+    "blyss": "^2.0.0",
+    "snazzy": "^7.0.0"
+  }
+}
